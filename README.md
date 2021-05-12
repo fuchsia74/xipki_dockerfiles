@@ -9,6 +9,7 @@ docker build -t xipki_server:1.0 .
 
 # build xipki database image, init database  from sql first run.
 cd ../XIPKI_db
+
 docker build -t xipki_db:1.0 .
 
 #now you have tow docker images
